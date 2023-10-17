@@ -6,13 +6,13 @@ public class Ex4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Insert password:");
+        System.out.println("Enter password:");
         int password = sc.nextInt();
 
         while (password != 2002) {
             System.out.println("Invalid password.");
             System.out.println("");
-            System.out.println("Insert password:");
+            System.out.println("Enter password:");
             password = sc.nextInt();
         }
 
