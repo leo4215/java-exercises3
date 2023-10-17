@@ -6,7 +6,7 @@ public class Ex5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Insert the value of X and Y:");
+        System.out.println("Enter the value of X and Y:");
         int x = sc.nextInt(), y = sc.nextInt();
 
         while (x != 0 && y != 0) {
@@ -20,7 +20,7 @@ public class Ex5 {
                 System.out.println("Fourth");
             }
             System.out.println("");
-            System.out.println("Insert the value of X and Y:");
+            System.out.println("Enter the value of X and Y:");
             x = sc.nextInt();
             y = sc.nextInt();
         }
