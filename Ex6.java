@@ -15,8 +15,8 @@ public class Ex6 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Insert 1 for alcohol, 2 for gasoline, 3 for diesel, and 4 to end the program.");
-        System.out.println("Insert the type of fuel:");
+        System.out.println("Enter 1 for alcohol, 2 for gasoline, 3 for diesel, and 4 to end the program.");
+        System.out.println("Enter the type of fuel:");
         int fuel = sc.nextInt(), alcohol = 0, gasoline = 0, diesel = 0;
 
         while (fuel != 4) {
@@ -28,7 +28,7 @@ public class Ex6 {
                 diesel++;
             }
 
-            System.out.println("Insert the type of fuel:");
+            System.out.println("Enter the type of fuel:");
             fuel = sc.nextInt();
         }
 
