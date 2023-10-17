@@ -6,7 +6,7 @@ public class Ex2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Insert an integer value for X and Y:");
+        System.out.println("Enter an integer value for X and Y:");
         int x = sc.nextInt(), y = sc.nextInt();
 
         while (x != y) {
@@ -16,7 +16,7 @@ public class Ex2 {
                 System.out.println("Ascending");
             }
 
-            System.out.println("Insert a new integer value for X and Y:");
+            System.out.println("Enter a new integer value for X and Y:");
             x = sc.nextInt();
             y = sc.nextInt();
         }
