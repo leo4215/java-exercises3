@@ -9,7 +9,7 @@ public class Ex1 {
         int num = 1, sum = 0;
 
         while (num != 0) {
-            System.out.println("Insert any integer:");
+            System.out.println("Enter any integer:");
             num = sc.nextInt();
             sum += num;
         }
